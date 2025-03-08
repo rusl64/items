@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf)
+}
+@font-face {
+    font-family: Proxima;
+    src: url(../fonts/proximanova-regular.otf)
+}
+* {
+    box-sizing: border-box;
+}
+.box {
+    background-color: rgb(245, 241, 239 );
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Gotham;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.line {
+  width: 184px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+}
+.text {
+  font-family: Proxima;
+  width: 540px;
+  margin: 0 auto;
+  line-height: 25px;
+  padding-top: 30px;
+  font-size: 16px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 55px;
+}
+.item {
+background-color: white;
+min-width: 210px;
+box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+}
+.item__title {
+  font-family: Proxima;
+  text-align: center;
+}
+.item__text {
+  font-family: Georgia;
+  font-style: italic;
+  text-align: center;
+}
+.item__img {
+  padding-left: 60px;
+  margin-bottom: 10px;
+}
+.icon {
+  text-align: center;
+}
+.fa {
+  color: gray;
+  font-size: 20px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
